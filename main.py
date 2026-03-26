@@ -55,7 +55,7 @@ class SparkApp:
             
             logger.info("SparkSession created successfully")
             logger.info(f"Spark Version: {self.spark.version}")
-            logger.info(f"App Name: {self.spark.appName}")
+            logger.info(f"App Name: {self.spark.sparkContext.appName}")
             return self.spark
             
         except Exception as e:
