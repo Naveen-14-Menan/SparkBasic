@@ -17,3 +17,7 @@ line-length = 100
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "W"]
+
+[tool.setuptools]
+# Flat layout for now; replaced by a src/ package in the next Phase 1 step.
+py-modules = ["main", "config", "data_loader", "transformations"]
