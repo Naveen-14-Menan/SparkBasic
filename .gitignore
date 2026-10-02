@@ -12,3 +12,6 @@ spark-warehouse/
 metastore_db/
 derby.log
 .claude/
+*.egg-info/
+build/
+dist/
